@@ -1,0 +1,17 @@
+[project]
+name = "astel"
+version = "0.1.0"
+description = "Multiagent orchestration for coding agents."
+readme = "README.md"
+authors = [
+    { name = "Shreyansh Kushwaha", email = "shreyansh.kushw@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+astel = "astel:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
